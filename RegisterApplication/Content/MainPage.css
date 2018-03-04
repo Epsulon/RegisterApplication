@@ -1,0 +1,1713 @@
+﻿<style > html, body, h1, h2, h3, h4, h5 {
+    font-family: "RobotoDraft", "Roboto", sans-serif
+}
+
+.tk-bar-block .tk-bar-item {
+    padding: 16px
+}
+
+</style > html {
+    box-sizing: border-box
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+    a:active, a:hover {
+        outline-width: 0
+    }
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+    button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+        border-style: none;
+        padding: 0
+    }
+
+    button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+        outline: 1px dotted ButtonText
+    }
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+    [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+/* End extract */
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+.tk-serif {
+    font-family: serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.tk-wide {
+    letter-spacing: 4px
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.tk-image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.tk-table, .tk-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.tk-table-all {
+    border: 1px solid #ccc
+}
+
+    .tk-bordered tr, .tk-table-all tr {
+        border-bottom: 1px solid #ddd
+    }
+
+.tk-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.tk-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.tk-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.tk-hoverable tbody tr:hover, .tk-ul.tk-hoverable li:hover {
+    background-color: #ccc
+}
+
+.tk-centered tr th, .tk-centered tr td {
+    text-align: center
+}
+
+.tk-table td, .tk-table th, .tk-table-all td, .tk-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+    .tk-table th:first-child, .tk-table td:first-child, .tk-table-all th:first-child, .tk-table-all td:first-child {
+        padding-left: 16px
+    }
+
+.tk-btn, .tk-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+    .tk-btn:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+    }
+
+.tk-btn, .tk-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+    .tk-disabled, .tk-btn:disabled, .tk-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.3
+    }
+
+        .tk-disabled *, :disabled * {
+            pointer-events: none
+        }
+
+        .tk-btn.tk-disabled:hover, .tk-btn:disabled:hover {
+            box-shadow: none
+        }
+
+.tk-badge, .tk-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.tk-badge {
+    border-radius: 50%
+}
+
+.tk-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+    .tk-ul li {
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd
+    }
+
+        .tk-ul li:last-child {
+            border-bottom: none
+        }
+
+.tk-tooltip, .tk-display-container {
+    position: relative
+}
+
+    .tk-tooltip .tk-text {
+        display: none
+    }
+
+    .tk-tooltip:hover .tk-text {
+        display: inline-block
+    }
+
+.tk-ripple:active {
+    opacity: 0.5
+}
+
+.tk-ripple {
+    transition: opacity 0s
+}
+
+.tk-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.tk-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.tk-dropdown-click, .tk-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+    .tk-dropdown-hover:hover .tk-dropdown-content {
+        display: block
+    }
+
+    .tk-dropdown-hover:first-child, .tk-dropdown-click:hover {
+        background-color: #ccc;
+        color: #000
+    }
+
+        .tk-dropdown-hover:hover > .tk-button:first-child, .tk-dropdown-click:hover > .tk-button:first-child {
+            background-color: #ccc;
+            color: #000
+        }
+
+.tk-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.tk-check, .tk-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.tk-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+.tk-bar-block .tk-dropdown-hover, .tk-bar-block .tk-dropdown-click {
+    width: 100%
+}
+
+    .tk-bar-block .tk-dropdown-hover .tk-dropdown-content, .tk-bar-block .tk-dropdown-click .tk-dropdown-content {
+        min-width: 100%
+    }
+
+    .tk-bar-block .tk-dropdown-hover .tk-button, .tk-bar-block .tk-dropdown-click .tk-button {
+        width: 100%;
+        text-align: left;
+        padding: 8px 16px
+    }
+
+.tk-main, #main {
+    transition: margin-left .4s
+}
+
+.tk-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4)
+}
+
+.tk-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+.tk-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.tk-center .tk-bar {
+    display: inline-block;
+    width: auto
+}
+
+.tk-bar .tk-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.tk-bar .tk-dropdown-hover, .tk-bar .tk-dropdown-click {
+    position: static;
+    float: left
+}
+
+.tk-bar .tk-button {
+    white-space: normal
+}
+
+.tk-bar-block .tk-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.tk-bar-block.tk-center .tk-bar-item {
+    text-align: center
+}
+
+.tk-block {
+    display: block;
+    width: 100%
+}
+
+.tk-responsive {
+    display: block;
+    overflow-x: auto
+}
+
+.tk-container:after, .tk-container:before, .tk-panel:after, .tk-panel:before, .tk-row:after, .tk-row:before, .tk-row-padding:after, .tk-row-padding:before,
+.tk-cell-row:before, .tk-cell-row:after, .tk-clear:after, .tk-clear:before, .tk-bar:before, .tk-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.tk-col, .tk-half, .tk-third, .tk-twothird, .tk-threequarter, .tk-quarter {
+    float: left;
+    width: 100%
+}
+
+    .tk-col.s1 {
+        width: 8.33333%
+    }
+
+    .tk-col.s2 {
+        width: 16.66666%
+    }
+
+    .tk-col.s3 {
+        width: 24.99999%
+    }
+
+    .tk-col.s4 {
+        width: 33.33333%
+    }
+
+    .tk-col.s5 {
+        width: 41.66666%
+    }
+
+    .tk-col.s6 {
+        width: 49.99999%
+    }
+
+    .tk-col.s7 {
+        width: 58.33333%
+    }
+
+    .tk-col.s8 {
+        width: 66.66666%
+    }
+
+    .tk-col.s9 {
+        width: 74.99999%
+    }
+
+    .tk-col.s10 {
+        width: 83.33333%
+    }
+
+    .tk-col.s11 {
+        width: 91.66666%
+    }
+
+    .tk-col.s12 {
+        width: 99.99999%
+    }
+
+@media (min-width:601px) {
+    .tk-col.m1 {
+        width: 8.33333%
+    }
+
+    .tk-col.m2 {
+        width: 16.66666%
+    }
+
+    .tk-col.m3, .tk-quarter {
+        width: 24.99999%
+    }
+
+    .tk-col.m4, .tk-third {
+        width: 33.33333%
+    }
+
+    .tk-col.m5 {
+        width: 41.66666%
+    }
+
+    .tk-col.m6, .tk-half {
+        width: 49.99999%
+    }
+
+    .tk-col.m7 {
+        width: 58.33333%
+    }
+
+    .tk-col.m8, .tk-twothird {
+        width: 66.66666%
+    }
+
+    .tk-col.m9, .tk-threequarter {
+        width: 74.99999%
+    }
+
+    .tk-col.m10 {
+        width: 83.33333%
+    }
+
+    .tk-col.m11 {
+        width: 91.66666%
+    }
+
+    .tk-col.m12 {
+        width: 99.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .tk-col.l1 {
+        width: 8.33333%
+    }
+
+    .tk-col.l2 {
+        width: 16.66666%
+    }
+
+    .tk-col.l3 {
+        width: 24.99999%
+    }
+
+    .tk-col.l4 {
+        width: 33.33333%
+    }
+
+    .tk-col.l5 {
+        width: 41.66666%
+    }
+
+    .tk-col.l6 {
+        width: 49.99999%
+    }
+
+    .tk-col.l7 {
+        width: 58.33333%
+    }
+
+    .tk-col.l8 {
+        width: 66.66666%
+    }
+
+    .tk-col.l9 {
+        width: 74.99999%
+    }
+
+    .tk-col.l10 {
+        width: 83.33333%
+    }
+
+    .tk-col.l11 {
+        width: 91.66666%
+    }
+
+    .tk-col.l12 {
+        width: 99.99999%
+    }
+}
+
+.tk-content {
+    max-width: 980px;
+    margin: auto
+}
+
+.tk-rest {
+    overflow: hidden
+}
+
+.tk-cell-row {
+    display: table;
+    width: 100%
+}
+
+.tk-cell {
+    display: table-cell
+}
+
+.tk-cell-top {
+    vertical-align: top
+}
+
+.tk-cell-middle {
+    vertical-align: middle
+}
+
+.tk-cell-bottom {
+    vertical-align: bottom
+}
+
+.tk-hide {
+    display: none !important
+}
+
+.tk-show-block, .tk-show {
+    display: block !important
+}
+
+.tk-show-inline-block {
+    display: inline-block !important
+}
+
+@media (max-width:600px) {
+    .tk-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .tk-modal {
+        padding-top: 30px
+    }
+
+    .tk-dropdown-hover.tk-mobile .tk-dropdown-content, .tk-dropdown-click.tk-mobile .tk-dropdown-content {
+        position: relative
+    }
+
+    .tk-hide-small {
+        display: none !important
+    }
+
+    .tk-mobile {
+        display: block;
+        width: 100% !important
+    }
+
+    .tk-bar-item.tk-mobile, .tk-dropdown-hover.tk-mobile, .tk-dropdown-click.tk-mobile {
+        text-align: center
+    }
+
+        .tk-dropdown-hover.tk-mobile, .tk-dropdown-hover.tk-mobile .tk-btn, .tk-dropdown-hover.tk-mobile .tk-button, .tk-dropdown-click.tk-mobile, .tk-dropdown-click.tk-mobile .tk-btn, .tk-dropdown-click.tk-mobile .tk-button {
+            width: 100%
+        }
+}
+
+@media (max-width:768px) {
+    .tk-modal-content {
+        width: 500px
+    }
+
+    .tk-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .tk-modal-content {
+        width: 900px
+    }
+
+    .tk-hide-large {
+        display: none !important
+    }
+
+    .tk-sidebar.tk-collapse {
+        display: block !important
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .tk-hide-medium {
+        display: none !important
+    }
+}
+
+@media (max-width:992px) {
+    .tk-sidebar.tk-collapse {
+        display: none
+    }
+
+    .tk-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+}
+
+.tk-top, .tk-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.tk-top {
+    top: 0
+}
+
+.tk-bottom {
+    bottom: 0
+}
+
+.tk-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+.tk-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.tk-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tk-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.tk-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.tk-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%)
+}
+
+.tk-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%)
+}
+
+.tk-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%)
+}
+
+.tk-display-topmiddle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%)
+}
+
+.tk-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%)
+}
+
+.tk-display-container:hover .tk-display-hover {
+    display: block
+}
+
+.tk-display-container:hover span.tk-display-hover {
+    display: inline-block
+}
+
+.tk-display-hover {
+    display: none
+}
+
+.tk-display-position {
+    position: absolute
+}
+
+.tk-circle {
+    border-radius: 50%
+}
+
+.tk-round-small {
+    border-radius: 2px
+}
+
+.tk-round, .tk-round-medium {
+    border-radius: 4px
+}
+
+.tk-round-large {
+    border-radius: 8px
+}
+
+.tk-round-xlarge {
+    border-radius: 16px
+}
+
+.tk-round-xxlarge {
+    border-radius: 32px
+}
+
+.tk-row-padding, .tk-row-padding > .tk-half, .tk-row-padding > .tk-third, .tk-row-padding > .tk-twothird, .tk-row-padding > .tk-threequarter, .tk-row-padding > .tk-quarter, .tk-row-padding > .tk-col {
+    padding: 0 8px
+}
+
+.tk-container, .tk-panel {
+    padding: 0.01em 16px
+}
+
+.tk-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.tk-code, .tk-codespan {
+    font-family: Consolas,"courier new";
+    font-size: 16px
+}
+
+.tk-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.tk-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.tk-card, .tk-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.tk-card-4, .tk-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.tk-spin {
+    animation: tk-spin 2s infinite linear
+}
+
+@keyframes tk-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.tk-animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.tk-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.tk-animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.tk-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.tk-animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.tk-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.tk-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.tk-animate-input {
+    transition: width 0.4s ease-in-out
+}
+
+    .tk-animate-input:focus {
+        width: 100% !important
+    }
+
+.tk-opacity, .tk-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.tk-opacity-off, .tk-hover-opacity-off:hover {
+    opacity: 1
+}
+
+.tk-opacity-max {
+    opacity: 0.25
+}
+
+.tk-opacity-min {
+    opacity: 0.75
+}
+
+.tk-greyscale-max, .tk-grayscale-max, .tk-hover-greyscale:hover, .tk-hover-grayscale:hover {
+    filter: grayscale(100%)
+}
+
+.tk-greyscale, .tk-grayscale {
+    filter: grayscale(75%)
+}
+
+.tk-greyscale-min, .tk-grayscale-min {
+    filter: grayscale(50%)
+}
+
+.tk-sepia {
+    filter: sepia(75%)
+}
+
+.tk-sepia-max, .tk-hover-sepia:hover {
+    filter: sepia(100%)
+}
+
+.tk-sepia-min {
+    filter: sepia(50%)
+}
+
+.tk-tiny {
+    font-size: 10px !important
+}
+
+.tk-small {
+    font-size: 12px !important
+}
+
+.tk-medium {
+    font-size: 15px !important
+}
+
+.tk-large {
+    font-size: 18px !important
+}
+
+.tk-xlarge {
+    font-size: 24px !important
+}
+
+.tk-xxlarge {
+    font-size: 36px !important
+}
+
+.tk-xxxlarge {
+    font-size: 48px !important
+}
+
+.tk-jumbo {
+    font-size: 64px !important
+}
+
+.tk-left-align {
+    text-align: left !important
+}
+
+.tk-right-align {
+    text-align: right !important
+}
+
+.tk-justify {
+    text-align: justify !important
+}
+
+.tk-center {
+    text-align: center !important
+}
+
+.tk-border-0 {
+    border: 0 !important
+}
+
+.tk-border {
+    border: 1px solid #ccc !important
+}
+
+.tk-border-top {
+    border-top: 1px solid #ccc !important
+}
+
+.tk-border-bottom {
+    border-bottom: 1px solid #ccc !important
+}
+
+.tk-border-left {
+    border-left: 1px solid #ccc !important
+}
+
+.tk-border-right {
+    border-right: 1px solid #ccc !important
+}
+
+.tk-topbar {
+    border-top: 6px solid #ccc !important
+}
+
+.tk-bottombar {
+    border-bottom: 6px solid #ccc !important
+}
+
+.tk-leftbar {
+    border-left: 6px solid #ccc !important
+}
+
+.tk-rightbar {
+    border-right: 6px solid #ccc !important
+}
+
+.tk-section, .tk-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.tk-margin {
+    margin: 16px !important
+}
+
+.tk-margin-top {
+    margin-top: 16px !important
+}
+
+.tk-margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.tk-margin-left {
+    margin-left: 16px !important
+}
+
+.tk-margin-right {
+    margin-right: 16px !important
+}
+
+.tk-padding-small {
+    padding: 4px 8px !important
+}
+
+.tk-padding {
+    padding: 8px 16px !important
+}
+
+.tk-padding-large {
+    padding: 12px 24px !important
+}
+
+.tk-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.tk-padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
+}
+
+.tk-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.tk-padding-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
+}
+
+.tk-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.tk-left {
+    float: left !important
+}
+
+.tk-right {
+    float: right !important
+}
+
+.tk-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.tk-transparent, .tk-hover-none:hover {
+    background-color: transparent !important
+}
+
+.tk-hover-none:hover {
+    box-shadow: none !important
+}
+/* Colors */
+.tk-amber, .tk-hover-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
+}
+
+.tk-aqua, .tk-hover-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
+}
+
+.tk-blue, .tk-hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.tk-light-blue, .tk-hover-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
+}
+
+.tk-brown, .tk-hover-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.tk-cyan, .tk-hover-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
+}
+
+.tk-blue-grey, .tk-hover-blue-grey:hover, .tk-blue-gray, .tk-hover-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.tk-green, .tk-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.tk-light-green, .tk-hover-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
+}
+
+.tk-indigo, .tk-hover-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+}
+
+.tk-khaki, .tk-hover-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
+}
+
+.tk-lime, .tk-hover-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
+}
+
+.tk-orange, .tk-hover-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
+}
+
+.tk-deep-orange, .tk-hover-deep-orange:hover {
+    color: #fff !important;
+    background-color: #ff5722 !important
+}
+
+.tk-pink, .tk-hover-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.tk-purple, .tk-hover-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
+}
+
+.tk-deep-purple, .tk-hover-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
+}
+
+.tk-red, .tk-hover-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.tk-sand, .tk-hover-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
+}
+
+.tk-teal, .tk-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
+}
+
+.tk-yellow, .tk-hover-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
+}
+
+.tk-white, .tk-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.tk-black, .tk-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.tk-grey, .tk-hover-grey:hover, .tk-gray, .tk-hover-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.tk-light-grey, .tk-hover-light-grey:hover, .tk-light-gray, .tk-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.tk-dark-grey, .tk-hover-dark-grey:hover, .tk-dark-gray, .tk-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
+}
+
+.tk-pale-red, .tk-hover-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
+}
+
+.tk-pale-green, .tk-hover-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
+}
+
+.tk-pale-yellow, .tk-hover-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
+}
+
+.tk-pale-blue, .tk-hover-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
+}
+
+.tk-text-amber, .tk-hover-text-amber:hover {
+    color: #ffc107 !important
+}
+
+.tk-text-aqua, .tk-hover-text-aqua:hover {
+    color: #00ffff !important
+}
+
+.tk-text-blue, .tk-hover-text-blue:hover {
+    color: #2196F3 !important
+}
+
+.tk-text-light-blue, .tk-hover-text-light-blue:hover {
+    color: #87CEEB !important
+}
+
+.tk-text-brown, .tk-hover-text-brown:hover {
+    color: #795548 !important
+}
+
+.tk-text-cyan, .tk-hover-text-cyan:hover {
+    color: #00bcd4 !important
+}
+
+.tk-text-blue-grey, .tk-hover-text-blue-grey:hover, .tk-text-blue-gray, .tk-hover-text-blue-gray:hover {
+    color: #607d8b !important
+}
+
+.tk-text-green, .tk-hover-text-green:hover {
+    color: #4CAF50 !important
+}
+
+.tk-text-light-green, .tk-hover-text-light-green:hover {
+    color: #8bc34a !important
+}
+
+.tk-text-indigo, .tk-hover-text-indigo:hover {
+    color: #3f51b5 !important
+}
+
+.tk-text-khaki, .tk-hover-text-khaki:hover {
+    color: #b4aa50 !important
+}
+
+.tk-text-lime, .tk-hover-text-lime:hover {
+    color: #cddc39 !important
+}
+
+.tk-text-orange, .tk-hover-text-orange:hover {
+    color: #ff9800 !important
+}
+
+.tk-text-deep-orange, .tk-hover-text-deep-orange:hover {
+    color: #ff5722 !important
+}
+
+.tk-text-pink, .tk-hover-text-pink:hover {
+    color: #e91e63 !important
+}
+
+.tk-text-purple, .tk-hover-text-purple:hover {
+    color: #9c27b0 !important
+}
+
+.tk-text-deep-purple, .tk-hover-text-deep-purple:hover {
+    color: #673ab7 !important
+}
+
+.tk-text-red, .tk-hover-text-red:hover {
+    color: #f44336 !important
+}
+
+.tk-text-sand, .tk-hover-text-sand:hover {
+    color: #fdf5e6 !important
+}
+
+.tk-text-teal, .tk-hover-text-teal:hover {
+    color: #009688 !important
+}
+
+.tk-text-yellow, .tk-hover-text-yellow:hover {
+    color: #d2be0e !important
+}
+
+.tk-text-white, .tk-hover-text-white:hover {
+    color: #fff !important
+}
+
+.tk-text-black, .tk-hover-text-black:hover {
+    color: #000 !important
+}
+
+.tk-text-grey, .tk-hover-text-grey:hover, .tk-text-gray, .tk-hover-text-gray:hover {
+    color: #757575 !important
+}
+
+.tk-text-light-grey, .tk-hover-text-light-grey:hover, .tk-text-light-gray, .tk-hover-text-light-gray:hover {
+    color: #f1f1f1 !important
+}
+
+.tk-text-dark-grey, .tk-hover-text-dark-grey:hover, .tk-text-dark-gray, .tk-hover-text-dark-gray:hover {
+    color: #3a3a3a !important
+}
+
+.tk-border-amber, .tk-hover-border-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.tk-border-aqua, .tk-hover-border-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.tk-border-blue, .tk-hover-border-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.tk-border-light-blue, .tk-hover-border-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.tk-border-brown, .tk-hover-border-brown:hover {
+    border-color: #795548 !important
+}
+
+.tk-border-cyan, .tk-hover-border-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.tk-border-blue-grey, .tk-hover-border-blue-grey:hover, .tk-border-blue-gray, .tk-hover-border-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.tk-border-green, .tk-hover-border-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.tk-border-light-green, .tk-hover-border-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.tk-border-indigo, .tk-hover-border-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.tk-border-khaki, .tk-hover-border-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.tk-border-lime, .tk-hover-border-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.tk-border-orange, .tk-hover-border-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.tk-border-deep-orange, .tk-hover-border-deep-orange:hover {
+    border-color: #ff5722 !important
+}
+
+.tk-border-pink, .tk-hover-border-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.tk-border-purple, .tk-hover-border-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.tk-border-deep-purple, .tk-hover-border-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.tk-border-red, .tk-hover-border-red:hover {
+    border-color: #f44336 !important
+}
+
+.tk-border-sand, .tk-hover-border-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.tk-border-teal, .tk-hover-border-teal:hover {
+    border-color: #009688 !important
+}
+
+.tk-border-yellow, .tk-hover-border-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.tk-border-white, .tk-hover-border-white:hover {
+    border-color: #fff !important
+}
+
+.tk-border-black, .tk-hover-border-black:hover {
+    border-color: #000 !important
+}
+
+.tk-border-grey, .tk-hover-border-grey:hover, .tk-border-gray, .tk-hover-border-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.tk-border-light-grey, .tk-hover-border-light-grey:hover, .tk-border-light-gray, .tk-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.tk-border-dark-grey, .tk-hover-border-dark-grey:hover, .tk-border-dark-gray, .tk-hover-border-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.tk-border-pale-red, .tk-hover-border-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.tk-border-pale-green, .tk-hover-border-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.tk-border-pale-yellow, .tk-hover-border-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.tk-border-pale-blue, .tk-hover-border-pale-blue:hover {
+    border-color: #e7ffff !important
+}

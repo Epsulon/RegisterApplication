@@ -1,0 +1,51 @@
+﻿@model IEnumerable<RegisterApplication.AspTask>
+
+@{
+    ViewBag.Title = "Tasks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<div class="tk-main" style="margin-left:320px;">
+    @using (Html.BeginForm("TaskList", "Home", FormMethod.Post))
+    {
+        <span>Title Name:</span> @Html.TextBox("TitleName")
+        <input type="submit" value="Search" />
+        <br />
+        <br />
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tag)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Completed)
+                </th>
+                <th></th>
+            </tr>
+            @foreach (AspTask task in Model)
+            {
+                <tr>
+                    <td>
+                        @task.Title
+                    </td>
+                    <td>
+                        @task.Tag
+                    </td>
+                    <td>
+                        @task.Completed
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = task.Id }) |
+                    </td>
+                </tr>
+            }
+        </table>
+
+    }
+     
+</div>

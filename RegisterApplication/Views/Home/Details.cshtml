@@ -1,0 +1,60 @@
+﻿@model RegisterApplication.Models.TaskModelContext
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div class="tk-main" style="margin-left:320px;">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="col-md-10">
+            <div class="form-group">
+                @Html.DisplayFor(modelItem => Model.Title)
+            </div>
+        </div>
+
+        <div class="col-md-10">
+            <div class="form-group">
+                @Html.DisplayFor(modelItem => Model.Tag)
+            </div>
+        </div>
+
+
+        <div class="col-md-10">
+            <div class="form-group">
+                @Html.Raw(Model.Description)
+            </div>
+        </div>
+
+
+        <div class="col-md-10">
+            <div class="form-group">
+                @Html.HiddenFor(modelItem => Model.Id)
+                @Html.EditorFor(modelItem => Model.Completed)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "TaskList")
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</div>
